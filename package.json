@@ -5,7 +5,7 @@
     "dev:server": "live-server",
     "dev:javascript": "standard clicky.js",
     "dev:html": "htmlhint index.html",
-    "dev:stylelint": "stylelint style.css --config",
+    "dev:stylelint": "stylelint source/scss/style.scss --config",
     "dev:sass": "node-sass source/scss/style.scss --watch --output=compiled/css --output-style=compressed --source-map=true",
     "dev": "run-p dev:*",
     "build:sass": "node-sass source/scss/style.scss --output=compiled/css --output-style=compressed --source-map=true",
